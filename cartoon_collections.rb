@@ -12,6 +12,8 @@ def summon_captain_planet(calls)
   end
 end
 
+p summon_captain_planet(["earth", "wind", "water", "fire"])
+
 def long_planeteer_calls# code an argument here
   # Your code here
 end
