@@ -11,8 +11,6 @@ def summon_captain_planet(calls)
   end
 end
 
-p summon_captain_planet(["earth", "wind", "water", "fire"])
-
 def long_planeteer_calls(calls)
   calls.any? {|call| call.length > 4}
 end
